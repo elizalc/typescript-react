@@ -1,0 +1,32 @@
+{
+  "name": "typescript-react",
+  "version": "1.0.0",
+  "description": "An application app using typescript and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && NODE_ENV=production",
+    "build": "webpack --mode production",
+    "webpack": "webpack --display-error-details --mode development",
+    "dev": "webpack-dev-server --history-api-fallback --hot --inline --mode development"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.4.9",
+    "@types/react-dom": "^16.0.7",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
